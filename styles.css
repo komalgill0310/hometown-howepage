@@ -1,0 +1,141 @@
+body {
+    margin: 8px;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    height: 373px;
+    color: white;
+    text-shadow: 0 0 2px red;
+    background-image: url("images/kkr.jpg");
+    border-radius: 23px;
+    background-size: cover;
+}
+
+#title{
+    margin: 118px 0 16px;
+    padding: 3px 12px 5px;
+    background-color: #457B9D;
+    border-radius: 10px;
+}
+
+#place-info{
+    background-color: #1D3557;    
+    border-radius: 10px;
+    margin: 0px 154px 119px 154px;
+    padding: 5px;
+}
+
+.history-section{
+    background-color: #912B61;
+    height: 209px;
+    padding: 5px 8px;
+    margin-bottom: 0;
+    border-radius: 23px;
+}
+
+#history-title{
+    color: #2A4E69;
+    text-shadow: -2px 1px 2px white;
+}
+
+#history-info{
+    color: white;
+    margin-top: 31px;
+    line-height: 21px;    
+}
+
+.activities-section{
+    margin-top: 0;
+    padding-bottom: 25px;
+    height: 395px;
+    background: #F1FAEE;  
+    border-radius: 23px;     
+}
+
+#activity-title{
+    font-weight: 700;
+    line-height: 28px;
+    color: #1D3557;
+    margin: 0 141px 0 140px;
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+
+.activity-img-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 17px 35px 0 35px;  
+}
+
+.activity-img{
+    width: 125px; 
+    height: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40%;
+}
+
+.activity-info-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 5px 3px;
+}
+
+.img-title{
+    color: #1D3557;    
+    margin-top: 23px;
+    margin-bottom: 0;
+}
+
+.guide-section{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 294px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    margin: 50px auto 50px auto;
+}
+
+#guide-img{
+    width: 180px;
+    height: 248.67px; 
+    margin: 0 5px;
+    border-radius: 10px;  
+}
+
+.guide-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 79px;
+}
+
+.guide-info{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    margin: 14px 11px 0 7px;
+}
+
+.guide-name{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 26px 4px 84px;
+}
