@@ -16,7 +16,7 @@ img {
     height: 373px;
     color: white;
     text-shadow: 0 0 2px red;
-    background-image: url("images/kkr.jpg");
+    background-image: url("kkr.jpg");
     border-radius: 23px;
     background-size: cover;
 }
